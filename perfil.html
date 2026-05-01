@@ -20,22 +20,74 @@
     </header>
     <main>
         <section>
-            <h2>Información de Perfil</h2>
-            <figure>
-                <img src="images/usuario.png" alt="Foto de perfil" width="150">
-                <figcaption>Usuario: nombre_usuario</figcaption>
-            </figure>
+            <article>
+                <h2>Información de Perfil</h2>
+                <figure>
+                    <img src="images/usuario.png" alt="Foto de perfil de alumno" width="150">
+                    <figcaption>Foto de perfil</figcaption>
+                </figure>
+
+                <h3>Datos Personales:</h3>
+                <ul>
+                    <li><strong>Nombre: </strong>Pedro Gonzalez</li>
+                    <li><strong>Email: </strong>pedro_gonzalez@fi.unju.edu.ar</li>
+                    <li><strong>Rol: </strong>Alumno</li>
+                    <li><strong>Institucion: </strong>Facultad de Ingenieria - UNJu</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>Sobre Mí</h3>
+                <p>Estudiante de Analista Programador Universitario. Me apasiona el desarrollo de aplicaciones y actualmente estoy profundizando en el diseño de interfaces web y bases de datos relacionales.</p>
+            </article>
+
+            <article>
+                <h3>Habilidades Técnicas</h3>
+                <ul>
+                    <li>Lenguajes: Java, C++, SQL</li>
+                    <li>Desarrollo Web: HTML semántico</li>
+                    <li>Herramientas: Git, GitHub, Visual Studio Code</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>Estado Académico Actual</h3>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>Materia</th>
+                            <th>Estado</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Programación Visual</td>
+                            <td>En curso</td>
+                        </tr>
+                        <tr>
+                            <td>Bases de Datos II</td>
+                            <td>Regular</td>
+                        </tr>
+                        <tr>
+                            <td>Estructura de Datos</td>
+                            <td>Aprobada</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+
             <form action="#" method="post">
                 <fieldset>
-                    <legend>Datos Personales</legend>
-                    <label for="nombre">Nombre Completo:</label>
-                    <input type="text" name="nombre" id="nombre" value="Nombre Usuario" required><br>
+                    <legend>Modificar Informacion</legend>
+                    <label for="nombre">Nombre Completo</label>
+                    <input type="text" name="nombre" id="nombre" value="Pedro Gonzalez" required><br>
 
-                    <label for="email">Correo Institucional:</label>
-                    <input type="email" name="email" id="email" value="nombre_usuario@fi.unju.edu.ar" required>
+                    <label for="email">Correo Institucional</label>
+                    <input type="email" name="email" id="email" value="pedro_gonzalez@fi.unju.edu.ar" required>
                 </fieldset>
             </form>
         </section>
+        
     </main>
 </body>
 </html>
