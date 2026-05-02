@@ -87,6 +87,11 @@ img {
   display: block;
 }
 
+.card img {
+  height: 300px;
+  margin: 20px auto;
+}
+
 button {
   background: var(--color-primario);
   color: white;
@@ -125,6 +130,28 @@ p, li {
 
 footer {
   margin-top: 1rem;
+}
+
+main ul {
+  list-style-position: inside;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+}
+
+fieldset {
+  padding: 20px;
+  border-radius: 8px;
+}
+
+legend {
+  padding: 0 10px;
+  font-weight: bold;
 }
 
 @media (max-width: 768px) {
